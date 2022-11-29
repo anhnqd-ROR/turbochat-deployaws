@@ -1,0 +1,76 @@
+# Logfile created on 2022-11-25 17:19:05 +0700 by logger.rb/v1.4.3
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-11-25 17:19:05 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cc414e91] Running /usr/bin/env mkdir -p /tmp as deploy@3.112.7.151
+ DEBUG [cc414e91] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cc414e91] Finished in 0.980 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-a9eda4566a1d0b6f552f.sh 0.0%
+  INFO Uploading /tmp/git-ssh-a9eda4566a1d0b6f552f.sh 100.0%
+  INFO [3c53bc08] Running /usr/bin/env chmod 700 /tmp/git-ssh-a9eda4566a1d0b6f552f.sh as deploy@3.112.7.151
+ DEBUG [3c53bc08] Command: /usr/bin/env chmod 700 /tmp/git-ssh-a9eda4566a1d0b6f552f.sh
+  INFO [3c53bc08] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [e23e49a7] Running /usr/bin/env git ls-remote git@github.com:anhnqd-ROR/turbo-chat.git HEAD as deploy@3.112.7.151
+ DEBUG [e23e49a7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a9eda4566a1d0b6f552f.sh" ; /usr/bin/env git ls-remote git@github.com:anhnqd-ROR/turbo-chat.git HEAD )
+ DEBUG [e23e49a7] 	Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ DEBUG [e23e49a7] 	
+ DEBUG [e23e49a7] 	717577bff3d3518c397d49065d837d78c2d951c5	HEAD
+  INFO [e23e49a7] Finished in 2.588 seconds with exit status 0 (successful).
+  INFO [5c522b15] Running /usr/bin/env mkdir -p /deploy/apps/iorder_server/shared /deploy/apps/iorder_server/releases as deploy@3.112.7.151
+ DEBUG [5c522b15] Command: /usr/bin/env mkdir -p /deploy/apps/iorder_server/shared /deploy/apps/iorder_server/releases
+ DEBUG [5c522b15] 	mkdir: 
+ DEBUG [5c522b15] 	cannot create directory ‘/deploy/apps/iorder_server’
+ DEBUG [5c522b15] 	: Permission denied
+ DEBUG [5c522b15] 	
+ DEBUG [5c522b15] 	mkdir: 
+ DEBUG [5c522b15] 	cannot create directory ‘/deploy/apps/iorder_server’
+ DEBUG [5c522b15] 	: Permission denied
+ DEBUG [5c522b15] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-11-25 17:21:41 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ba0a89ec] Running /usr/bin/env mkdir -p /tmp as deploy@3.112.7.151
+ DEBUG [ba0a89ec] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ba0a89ec] Finished in 66.533 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-d54ce994ead9d61796ae.sh 0.0%
+  INFO Uploading /tmp/git-ssh-d54ce994ead9d61796ae.sh 100.0%
+  INFO [d0b02d60] Running /usr/bin/env chmod 700 /tmp/git-ssh-d54ce994ead9d61796ae.sh as deploy@3.112.7.151
+ DEBUG [d0b02d60] Command: /usr/bin/env chmod 700 /tmp/git-ssh-d54ce994ead9d61796ae.sh
+  INFO [d0b02d60] Finished in 0.247 seconds with exit status 0 (successful).
+  INFO [4fcd667b] Running /usr/bin/env git ls-remote git@github.com:anhnqd-ROR/turbo-chat.git HEAD as deploy@3.112.7.151
+ DEBUG [4fcd667b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d54ce994ead9d61796ae.sh" ; /usr/bin/env git ls-remote git@github.com:anhnqd-ROR/turbo-chat.git HEAD )
+ DEBUG [4fcd667b] 	717577bff3d3518c397d49065d837d78c2d951c5	HEAD
+  INFO [4fcd667b] Finished in 2.551 seconds with exit status 0 (successful).
+  INFO [9f52fd4d] Running /usr/bin/env mkdir -p /deploy/apps/turbo_chat_server/shared /deploy/apps/turbo_chat_server/releases as deploy@3.112.7.151
+ DEBUG [9f52fd4d] Command: /usr/bin/env mkdir -p /deploy/apps/turbo_chat_server/shared /deploy/apps/turbo_chat_server/releases
+  INFO [9f52fd4d] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [da14ea1f] Running /usr/bin/env mkdir -p /deploy/apps/turbo_chat_server/shared/log /deploy/apps/turbo_chat_server/shared/tmp/pids /deploy/apps/turbo_chat_server/shared/tmp/cache /deploy/apps/turbo_chat_server/shared/tmp/sockets /deploy/apps/turbo_chat_server/shared/vendor/bundle /deploy/apps/turbo_chat_server/shared/public/system /deploy/apps/turbo_chat_server/shared/public/uploads as deploy@3.112.7.151
+ DEBUG [da14ea1f] Command: /usr/bin/env mkdir -p /deploy/apps/turbo_chat_server/shared/log /deploy/apps/turbo_chat_server/shared/tmp/pids /deploy/apps/turbo_chat_server/shared/tmp/cache /deploy/apps/turbo_chat_server/shared/tmp/sockets /deploy/apps/turbo_chat_server/shared/vendor/bundle /deploy/apps/turbo_chat_server/shared/public/system /deploy/apps/turbo_chat_server/shared/public/uploads
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/log’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/tmp’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/tmp’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/tmp’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/vendor’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/public’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
+ DEBUG [da14ea1f] 	mkdir: 
+ DEBUG [da14ea1f] 	cannot create directory ‘/deploy/apps/turbo_chat_server/shared/public’
+ DEBUG [da14ea1f] 	: Permission denied
+ DEBUG [da14ea1f] 	
